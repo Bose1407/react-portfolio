@@ -7,6 +7,7 @@ import { SiNodedotjs } from 'react-icons/si'
 import { SiPython } from 'react-icons/si'
 import { SiFlask} from 'react-icons/si'
 import { SiSolidity} from 'react-icons/si'
+import { DiJava } from 'react-icons/di'
 import { animate, motion } from 'framer-motion'
 import { transition } from '@chakra-ui/react'
 
@@ -42,6 +43,9 @@ const Technologies = () => {
             </motion.div>
             <motion.div variants={iconanimate(4)}  animate="animate" initial="initial" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiPython className='text-7xl text-yellow-400'></SiPython>
+            </motion.div>
+            <motion.div variants={iconanimate(2)} animate="animate" initial="initial" className="rounded-2xl border-4 border-neutral-800 p-4">
+                <DiJava className='text-7xl '></DiJava>
             </motion.div>
             <motion.div variants={iconanimate(3)} animate="animate" initial="initial" className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiFlask className='text-7xl '></SiFlask>
